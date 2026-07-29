@@ -78,6 +78,7 @@ Using the data layer from /lib (profiles.js, db.js, auth.js) and the theme from 
 Test the full signup -> logout -> login flow works end to end with no bugs before finishing. Confirm data actually persists correctly in /data/profiles.csv and /data/db.json after signup.
 ```
 
+
 ---
 
 ## Prompt 4 — Dashboard & Job Posting Pages
