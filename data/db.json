@@ -1,0 +1,503 @@
+{
+  "amuniraht@gmail.com": {
+    "name": "Monerah",
+    "dob": "2026-07-28",
+    "jobs": {
+      "job_1785248433756": {
+        "id": "job_1785248433756",
+        "title": "HR Specialist",
+        "description": "Manage the full recruitment cycle (job posting, CV screening, interview scheduling)\nCoordinate onboarding programs for new hires\nMaintain employee records and update the HRIS system\nAssist in implementing HR policies and ensuring compliance with Saudi labor law and Nitaqat\nSupport the annual performance review process\nHandle employee inquiries related to leave, payroll, and benefits\nContribute to employee experience improvement initiatives",
+        "createdAt": "2026-07-28T14:20:33.757Z",
+        "candidates": {
+          "cand_1785250089961": {
+            "id": "cand_1785250089961",
+            "status": "screening",
+            "createdAt": "2026-07-28T14:48:09.961Z",
+            "name": "Fatimah Al-Sulami",
+            "fileName": "HR_01_Entry_FatimahAlsulami.pdf",
+            "cvText": "Fatimah Al-Sulami\nHR Fresh Graduate\nRiyadh, Saudi Arabia | fatimah.sulami@email.com\nSummary\nRecent HR graduate with one HR internship, eager to start a career in recruitment and employee relations.\nLimited hands-on experience but strong academic foundation.\nExperience\nHR Intern — Panda Retail Co. (Summer 2025, 3 months)\n• Shadowed the recruitment team during CV screening for entry-level roles\n• Helped organize new-hire orientation materials\n• Entered employee data into Excel sheets\nEducation\nB.A. in Human Resources Management — Imam Mohammad Ibn Saud University (2025)\nSkills\nArabic (native), English (intermediate), Excel (basic), MS Office\n\n-- 1 of 1 --",
+            "matchPercent": 45,
+            "pros": [
+              "Relevant academic background in HR Management",
+              "Local knowledge (Riyadh-based)",
+              "Direct internship experience in recruitment and onboarding",
+              "Familiarity with basic HR administration tasks"
+            ],
+            "cons": [
+              "Lack of hands-on experience with HRIS systems",
+              "Limited knowledge of Saudi Labor Law and Nitaqat",
+              "Entry-level/Fresh graduate profile",
+              "Basic Excel proficiency may be insufficient for complex payroll/reporting"
+            ],
+            "suggestedQuestions": [
+              "Can you explain your understanding of Nitaqat and how it impacts recruitment in Saudi Arabia?",
+              "Describe a time you had to manage multiple administrative tasks simultaneously during your internship.",
+              "How would you approach a situation where an employee has a complex inquiry about their leave balance?",
+              "What specific Excel functions do you know that would be useful for maintaining employee records?",
+              "Based on your internship, what do you believe is the most critical step in a successful onboarding process?"
+            ]
+          },
+          "cand_1785250099483": {
+            "id": "cand_1785250099483",
+            "status": "interview",
+            "createdAt": "2026-07-28T14:48:19.483Z",
+            "name": "Abdullah Al-Zahrani",
+            "fileName": "HR_02_Junior_AbdullahAlzahrani.pdf",
+            "cvText": "Abdullah Al-Zahrani\nJunior HR Coordinator\nJeddah, Saudi Arabia | a.zahrani@email.com\nSummary\nHR coordinator with 1.5 years of experience supporting recruitment and onboarding at a mid-sized retail\ncompany.\nExperience\nHR Coordinator — Danube Supermarkets (2024–Present)\n• Posted job openings and performed initial CV screening for 10-15 roles per month\n• Scheduled interviews and coordinated with hiring managers\n• Assisted with new employee onboarding paperwork\n• Maintained basic employee records in Excel\nEducation\nB.A. in Business Administration — Umm Al-Qura University (2024)\nSkills\nArabic (native), English (fluent), Excel (intermediate), basic knowledge of Saudi labor law\n\n-- 1 of 1 --",
+            "matchPercent": 70,
+            "pros": [
+              "Directly experienced in recruitment cycle and interview scheduling",
+              "Practical experience with onboarding and record maintenance",
+              "Relevant local knowledge of Saudi labor law",
+              "Local resident in Jeddah"
+            ],
+            "cons": [
+              "Limited experience with HRIS systems (currently uses Excel)",
+              "Lacks experience in performance reviews and payroll queries",
+              "Lacks experience with Nitaqat/compliance management",
+              "Relatively junior with only 1.5 years of experience"
+            ],
+            "suggestedQuestions": [
+              "Can you describe your experience managing Nitaqat compliance or any specific labor law challenges you've faced?",
+              "How would you handle an employee inquiry regarding a payroll discrepancy or leave balance?",
+              "Which HRIS systems are you familiar with, and how do you ensure data accuracy when transitioning from Excel?",
+              "Describe a time you had to assist in implementing a new HR policy or employee initiative."
+            ]
+          },
+          "cand_1785250105104": {
+            "id": "cand_1785250105104",
+            "status": "interview",
+            "createdAt": "2026-07-28T14:48:25.104Z",
+            "name": "Noura Al-Ghamdi",
+            "fileName": "HR_03_Mid_NouraAlghamdi.pdf",
+            "cvText": "Noura Al-Ghamdi\nHR Specialist\nRiyadh, Saudi Arabia | noura.ghamdi@email.com\nSummary\nHR Specialist with 3.5 years of experience managing full-cycle recruitment, onboarding, and HRIS data for a\n300+ employee company. Solid knowledge of Nitaqat and Saudi labor law.\nExperience\nHR Specialist — Al Rajhi Retail Group (2022–Present)\n• Managed full recruitment cycle for 40+ hires per year, including job posting, CV screening, and interview\nscheduling\n• Maintained employee records in SAP SuccessFactors and ensured Nitaqat compliance reporting\n• Coordinated onboarding programs for new employees, reducing time-to-productivity by 20%\n• Handled employee inquiries related to leave, payroll, and benefits\nHR Assistant — Jarir Marketing Co. (2021–2022)\n• Supported the annual performance review process for 150+ employees\nEducation\nB.A. in Human Resources Management — King Saud University (2021)\nSkills\nArabic (native), English (fluent), Excel (advanced), SAP SuccessFactors, Nitaqat system, employee relations\n\n-- 1 of 1 --",
+            "matchPercent": 95,
+            "pros": [
+              "Direct experience with full recruitment cycle",
+              "Proficiency in SAP SuccessFactors and HRIS management",
+              "Strong knowledge of Saudi labor law and Nitaqat",
+              "Proven track record in onboarding and employee inquiries",
+              "Experience supporting annual performance reviews"
+            ],
+            "cons": [
+              "Lacks explicit mention of experience in implementing new HR policies",
+              "No specific mention of employee experience improvement initiatives"
+            ],
+            "suggestedQuestions": [
+              "Can you describe a time you successfully navigated a complex Nitaqat compliance issue?",
+              "How have you contributed to improving the employee experience or engagement in your previous roles?",
+              "What is your approach to managing employee inquiries regarding payroll and benefits to ensure high satisfaction?",
+              "Describe your experience with HR policy implementation—have you ever helped draft or roll out a new policy?",
+              "How do you prioritize your tasks when managing both recruitment cycles and day-to-day employee inquiries simultaneously?"
+            ]
+          },
+          "cand_1785250115735": {
+            "id": "cand_1785250115735",
+            "status": "new",
+            "createdAt": "2026-07-28T14:48:35.735Z",
+            "name": "Khalid Al-Mutairi",
+            "fileName": "HR_04_Senior_KhalidAlmutairi.pdf",
+            "cvText": "Khalid Al-Mutairi\nSenior HR Generalist\nRiyadh, Saudi Arabia | khalid.mutairi@email.com\nSummary\nSenior HR generalist with 6 years of progressive HR experience across recruitment, compensation, and policy\ncompliance in retail and logistics sectors. PHRi certified.\nExperience\nSenior HR Generalist — Almarai Co. (2021–Present)\n• Led end-to-end recruitment for corporate and warehouse roles, hiring 120+ employees annually\n• Redesigned onboarding program, cutting new-hire ramp-up time by 30%\n• Ensured full compliance with Saudi labor law and Nitaqat across 4 regional offices\n• Managed HRIS (Bayzat) rollout and trained 15 HR staff on the new system\n• Partnered with department heads on annual performance review cycles for 400+ employees\nHR Specialist — Extra Stores (2019–2021)\n• Handled recruitment and employee relations for retail staff across 3 branches\nEducation\nB.A. in Human Resources Management — King Abdulaziz University (2019) | PHRi Certified (2022)\nSkills\nArabic (native), English (fluent), Bayzat, SAP SuccessFactors, Nitaqat, labor law compliance, performance\nmanagement\n\n-- 1 of 1 --",
+            "matchPercent": 95,
+            "pros": [
+              "Direct experience in end-to-end recruitment and onboarding",
+              "Deep expertise in Saudi labor law and Nitaqat compliance",
+              "Proficient in HRIS management and implementation",
+              "Strong background in performance management and payroll support",
+              "PHRi certified with relevant retail and logistics experience"
+            ],
+            "cons": [
+              "High seniority level may result in salary expectations exceeding a generalist role"
+            ],
+            "suggestedQuestions": [
+              "Can you describe a time you successfully managed a complex Nitaqat or labor law compliance issue?",
+              "How would you approach improving an existing onboarding program to enhance employee experience?",
+              "Explain your methodology for managing high-volume recruitment while maintaining quality of hire.",
+              "Describe your experience in assisting with performance review cycles for large workforces.",
+              "Which HRIS tools are you most proficient in, and how have you used them to improve data accuracy?"
+            ]
+          },
+          "cand_1785250127911": {
+            "id": "cand_1785250127911",
+            "status": "new",
+            "createdAt": "2026-07-28T14:48:47.911Z",
+            "name": "Reem Al-Qahtani",
+            "fileName": "HR_05_SeniorMismatch_ReemAlqahtani.pdf",
+            "cvText": "Reem Al-Qahtani\nHR Business Partner (Strategic)\nRiyadh, Saudi Arabia | reem.qahtani@email.com\nSummary\nStrategic HR Business Partner with 9 years of experience focused on organizational design, leadership\ndevelopment, and executive-level HR consulting. Limited recent hands-on recruitment/operations work.\nExperience\nHR Business Partner — STC Group (2020–Present)\n• Advised senior leadership on organizational restructuring for a 2,000-employee division\n• Designed leadership development programs for mid-to-senior management\n• Led change management initiatives during a company-wide reorganization\n• Worked closely with talent acquisition leads but did not personally screen CVs or schedule interviews\nHR Manager — SABIC (2017–2020)\n• Oversaw HR strategy for a business unit of 500 employees\nEducation\nMBA — King Fahd University of Petroleum and Minerals (2017)\nSkills\nArabic (native), English (fluent), organizational design, change management, executive coaching, HR strategy\n\n-- 1 of 1 --",
+            "matchPercent": 35,
+            "pros": [
+              "Extensive experience in strategic HR and organizational design",
+              "Strong leadership and change management background",
+              "Deep understanding of large-scale HR operations in Saudi Arabia",
+              "Relevant high-level educational background (MBA)"
+            ],
+            "cons": [
+              "Lack of recent hands-on recruitment and operational experience",
+              "Has not personally managed full recruitment cycles or CV screening",
+              "Overqualified for a role focused on administrative and coordination tasks",
+              "Minimal experience in HRIS maintenance and payroll/benefits administration"
+            ],
+            "suggestedQuestions": [
+              "This role involves significant administrative and operational tasks; how do you feel about transitioning from a strategic role back to hands-on execution?",
+              "Can you describe your level of familiarity with current Saudi Labor Law and Nitaqat compliance in a practical, operational context?",
+              "How would you approach managing high-volume recruitment activities like CV screening and interview scheduling if required to do so personally?",
+              "Can you provide an example of how you have managed employee records or HRIS updates in your previous roles?"
+            ]
+          },
+          "cand_1785322591224": {
+            "id": "cand_1785322591224",
+            "status": "new",
+            "createdAt": "2026-07-29T10:56:31.224Z",
+            "name": "Mohammed Al-Harbi",
+            "fileName": "FIN_04_Senior_MohammedAlharbi.pdf",
+            "cvText": "Mohammed Al-Harbi\nSenior Financial Analyst\nRiyadh, Saudi Arabia | mohammed.harbi@email.com\nSummary\nSenior financial analyst with 7 years of FP&A experience, leading budgeting cycles and financial modeling for a\nlarge telecom company. CFA charterholder.\nExperience\nSenior Financial Analyst — Mobily (2020–Present)\n• Led the annual budgeting process for a business unit with 200M+ SAR revenue\n• Built complex financial models to evaluate new product investment decisions\n• Presented monthly financial performance insights directly to senior leadership\n• Mentored 2 junior analysts and improved reporting turnaround time by 25%\n• Owned quarterly forecasting using Power BI dashboards and SAP data\nFinancial Analyst — STC (2017–2020)\n• Built revenue forecasting models for the consumer division\nEducation\nB.A. in Finance — King Fahd University of Petroleum and Minerals (2017) | CFA Charterholder\nSkills\nAdvanced financial modeling, Power BI, SAP, FP&A, forecasting, budgeting, team mentoring\n\n-- 1 of 1 --",
+            "matchPercent": 10,
+            "pros": [
+              "Strong professional background in large Saudi corporations (Mobily, STC)",
+              "Advanced proficiency in SAP and data analysis tools",
+              "Experience in mentoring junior staff",
+              "Located in Riyadh"
+            ],
+            "cons": [
+              "Complete lack of HR-specific experience",
+              "No evidence of knowledge regarding Saudi Labor Law or Nitaqat",
+              "No experience with recruitment, onboarding, or HRIS management",
+              "Candidate is highly specialized in Finance/FP&A, suggesting overqualification or misalignment in career direction"
+            ],
+            "suggestedQuestions": [
+              "What motivated you to transition from a Senior Financial Analyst role into Human Resources?",
+              "How would you apply your experience with SAP and data analysis to managing HRIS and employee records?",
+              "Are you familiar with Saudi Labor Law and the current Nitaqat requirements?",
+              "Can you describe how your experience in budgeting and forecasting might assist in managing payroll and benefits administration?",
+              "How would you handle a situation where you need to implement a new HR policy with minimal prior HR training?"
+            ]
+          },
+          "cand_1785322604613": {
+            "id": "cand_1785322604613",
+            "status": "new",
+            "createdAt": "2026-07-29T10:56:44.613Z",
+            "name": "Sara Al-Dosari",
+            "fileName": "FIN_05_SeniorMismatch_SaraAldosari.pdf",
+            "cvText": "Sara Al-Dosari\nSenior Auditor\nRiyadh, Saudi Arabia | sara.dosari@email.com\nSummary\nSenior auditor with 9 years of experience in external audit and compliance for financial institutions. Strong\naccounting background but limited experience in forward-looking financial modeling or forecasting.\nExperience\nSenior Auditor — Ernst & Young KSA (2018–Present)\n• Led external audit engagements for banking and insurance clients\n• Reviewed financial statements for compliance with IFRS\n• Trained junior auditors on audit methodology\n• Limited direct experience building forecasts or investment financial models\nAudit Associate — KPMG KSA (2016–2018)\n• Performed substantive testing on client financial statements\nEducation\nB.A. in Accounting — King Saud University (2016) | CPA Certified\nSkills\nIFRS, external audit, compliance, financial statement review, CPA\n\n-- 1 of 1 --",
+            "matchPercent": 25,
+            "pros": [
+              "Strong background in compliance and regulatory standards",
+              "Highly analytical mindset with attention to detail",
+              "Deep understanding of Saudi financial regulatory frameworks",
+              "CPA certification indicates strong professional rigor"
+            ],
+            "cons": [
+              "No direct experience in end-to-end recruitment or talent acquisition",
+              "Lacks experience in HRIS management and onboarding processes",
+              "No demonstrated experience with Saudi Labor Law or Nitaqat",
+              "Career background is strictly in auditing rather than HR management"
+            ],
+            "suggestedQuestions": [
+              "How would you leverage your audit and compliance experience to manage Saudi Labor Law and Nitaqat requirements?",
+              "Can you describe a time when you had to manage complex personnel data or sensitive information?",
+              "What transferable skills from your auditing background will help you in managing the full recruitment cycle?",
+              "How would you approach transitioning from a financial auditing role to a human resources management role?",
+              "Describe your experience in training or mentoring staff and how you would apply that to an onboarding program."
+            ]
+          }
+        }
+      },
+      "job_1785248562385": {
+        "id": "job_1785248562385",
+        "title": "Software Engineer (Backend)",
+        "description": "Design and develop RESTful APIs and backend services\nWrite clean, efficient, and well-tested code\nOptimize applications for performance and scalability\nCollaborate with frontend, product, and QA teams\nParticipate in code reviews and system design discussions\nTroubleshoot and debug production issues",
+        "createdAt": "2026-07-28T14:22:42.385Z",
+        "candidates": {}
+      },
+      "job_1785248673735": {
+        "id": "job_1785248673735",
+        "title": "Marketing Specialist",
+        "description": "Job Summary:\nWe are seeking a Marketing Specialist to plan and execute marketing campaigns that drive brand awareness and lead generation.\n\nResponsibilities:\n\nPlan and execute digital marketing campaigns (social media, email, paid ads)\nCreate content for websites, social platforms, and newsletters\nAnalyze campaign performance and report on KPIs\nCoordinate with design and content teams on marketing materials\nManage the company's social media presence\nConduct market research and competitor analysis\n\nRequirements:\n\nBachelor's degree in Marketing, Communications, or related field\n2-3 years of experience in digital marketing\nProficiency in tools like Google Analytics, Meta Ads Manager, and Mailchimp\nStrong written and verbal communication skills\nExperience with SEO/SEM best practices\n\nNice to have:\n\nExperience with Canva or Adobe Creative Suite\nFamiliarity with HubSpot or similar CRM/marketing platforms",
+        "createdAt": "2026-07-28T14:24:33.736Z",
+        "candidates": {
+          "cand_1785249907335": {
+            "id": "cand_1785249907335",
+            "status": "closed",
+            "createdAt": "2026-07-28T14:45:07.336Z",
+            "name": "Maha Al-Otaibi",
+            "fileName": "MKT_01_Entry_MahaAlotaibi.pdf",
+            "cvText": "Maha Al-Otaibi\nMarketing Fresh Graduate\nRiyadh, Saudi Arabia | maha.otaibi@email.com | instagram.com/mahaotaibi.mkt\nSummary\nRecent marketing graduate with a university social media project and one short internship. Eager to start a\ncareer in digital marketing.\nExperience\nMarketing Intern — local fashion boutique (Summer 2025, 2 months)\n• Helped schedule Instagram posts using Canva templates\n• Assisted in tracking basic engagement metrics\nEducation\nB.A. in Marketing — Princess Nourah Bint Abdulrahman University (2025)\nSkills\nCanva, Instagram, basic content writing, Arabic (native), English (intermediate)\n\n-- 1 of 1 --",
+            "matchPercent": 30,
+            "pros": [
+              "Recent Marketing graduate",
+              "Hands-on experience with Canva",
+              "Direct social media exposure via internship",
+              "Bilingual (Arabic native)"
+            ],
+            "cons": [
+              "Lacks the required 2-3 years of experience",
+              "No proven experience in paid ads or SEO/SEM",
+              "Missing proficiency in Google Analytics and Mailchimp",
+              "No experience with CRM platforms like HubSpot"
+            ],
+            "suggestedQuestions": [
+              "Can you describe a time you used data or metrics to change your approach to a social media post?",
+              "How would you go about conducting a competitor analysis for a new product launch?",
+              "Which digital marketing tools (besides Canva) are you most interested in mastering next?",
+              "How do you ensure your written content aligns with a specific brand voice?"
+            ]
+          },
+          "cand_1785249936359": {
+            "id": "cand_1785249936359",
+            "status": "rejected",
+            "createdAt": "2026-07-28T14:45:36.359Z",
+            "name": "Rana Al-Ghamdi",
+            "fileName": "MKT_02_Junior_RanaAlghamdi.pdf",
+            "cvText": "Rana Al-Ghamdi\nJunior Digital Marketing Executive\nJeddah, Saudi Arabia | rana.ghamdi@email.com\nSummary\nJunior digital marketer with 1.5 years of experience running small paid social campaigns and managing content\ncalendars for a beauty e-commerce brand.\nExperience\nDigital Marketing Executive — Nice One (2024–Present)\n• Managed content calendar and posted 4-5 times per week across Instagram and TikTok\n• Ran small-budget Meta Ads campaigns (under 5,000 SAR/month)\n• Tracked basic performance metrics using Meta Business Suite\n• Assisted senior marketer with monthly email newsletters via Mailchimp\nEducation\nB.A. in Communications — Effat University (2024)\nSkills\nMeta Ads Manager (basic), Mailchimp, Canva, Instagram, TikTok, content calendars\n\n-- 1 of 1 --",
+            "matchPercent": 65,
+            "pros": [
+              "Direct experience with required tools: Meta Ads, Mailchimp, and Canva",
+              "Relevant experience in social media management and content calendars",
+              "Background in e-commerce marketing",
+              "Degree in Communications matches educational requirements"
+            ],
+            "cons": [
+              "Has 1.5 years experience vs the requested 2-3 years",
+              "Lacks proficiency in Google Analytics and SEO/SEM mentioned in requirements",
+              "Experience with paid advertising is at a junior/small-budget level",
+              "Missing experience with CRM platforms like HubSpot"
+            ],
+            "suggestedQuestions": [
+              "Can you walk me through a time you used data from Meta Business Suite to improve a campaign's performance?",
+              "How do you approach keyword research and SEO best practices when creating website content?",
+              "Describe your process for planning a monthly content calendar across multiple social platforms.",
+              "What specific metrics do you track to measure the success of an email newsletter campaign?",
+              "How would you manage a larger advertising budget compared to the small-scale campaigns you have run previously?"
+            ]
+          },
+          "cand_1785249953765": {
+            "id": "cand_1785249953765",
+            "status": "rejected",
+            "createdAt": "2026-07-28T14:45:53.765Z",
+            "name": "Lama Al-Qahtani",
+            "fileName": "MKT_03_Mid_LamaAlqahtani.pdf",
+            "cvText": "Lama Al-Qahtani\nDigital Marketing Specialist\nRiyadh, Saudi Arabia | lama.q@email.com | linkedin.com/in/lamaq\nSummary\nMarketing specialist with 2.5 years of experience running digital campaigns across social media, email, and paid\nads for consumer brands, with a track record of growing engagement and lead volume.\nExperience\nDigital Marketing Executive — Extra Stores (2023–Present)\n• Planned and executed paid social campaigns on Meta Ads Manager with an average ROAS of 4.2x\n• Grew Instagram following by 65% in one year through content strategy and influencer partnerships\n• Built monthly performance reports using Google Analytics and presented insights to leadership\n• Managed email campaigns via Mailchimp, achieving a 28% average open rate\nMarketing Coordinator — Boutiqaat KSA (2022–2023)\n• Assisted in content creation for website and social channels\n• Conducted competitor analysis to inform quarterly marketing strategy\nEducation\nB.A. in Marketing — Princess Nourah Bint Abdulrahman University (2022)\nSkills\nGoogle Analytics, Meta Ads Manager, Mailchimp, SEO/SEM, Canva, content strategy, market research\n\n-- 1 of 1 --",
+            "matchPercent": 95,
+            "pros": [
+              "Direct experience with Meta Ads Manager, Google Analytics, and Mailchimp",
+              "Meets the 2-3 years experience requirement",
+              "Proven track record with ROAS and engagement growth",
+              "Possesses 'nice to have' skill: Canva",
+              "Relevant Bachelor's degree in Marketing"
+            ],
+            "cons": [
+              "No specific mention of HubSpot or CRM experience",
+              "Lacks explicit mention of Adobe Creative Suite"
+            ],
+            "suggestedQuestions": [
+              "Can you walk us through a specific digital campaign you managed where you had to pivot strategy based on KPI analysis?",
+              "How do you approach SEO/SEM in your content creation process to ensure high visibility?",
+              "Describe your experience working with cross-functional teams, such as designers, to deliver marketing assets.",
+              "What is your process for conducting competitor analysis to identify new market opportunities?",
+              "Have you ever used a CRM like HubSpot to track lead generation from your digital campaigns?"
+            ]
+          },
+          "cand_1785249965956": {
+            "id": "cand_1785249965956",
+            "status": "rejected",
+            "createdAt": "2026-07-28T14:46:05.956Z",
+            "name": "Faisal Al-Dosari",
+            "fileName": "MKT_04_Senior_FaisalAldosari.pdf",
+            "cvText": "Faisal Al-Dosari\nSenior Marketing Manager\nRiyadh, Saudi Arabia | faisal.dosari@email.com | linkedin.com/in/faisaldosari\nSummary\nSenior marketing manager with 6 years of experience leading integrated marketing strategy and small teams for\nconsumer retail brands, with strong analytics and campaign performance track record.\nExperience\nSenior Marketing Manager — Jahez (2021–Present)\n• Led a team of 4 marketers across paid social, SEO, and email channels\n• Owned annual marketing budget of 3M SAR, consistently hitting CAC targets\n• Launched a national campaign that grew app downloads by 80% in one quarter\n• Built full-funnel analytics dashboards using Google Analytics and Power BI\n• Managed relationships with 3 external creative and media agencies\nMarketing Specialist — HungerStation (2019–2021)\n• Ran performance marketing campaigns across Google Ads and Meta Ads\nEducation\nMBA in Marketing — Alfaisal University (2019)\nSkills\nGoogle Ads, Meta Ads Manager, Power BI, Google Analytics, SEO/SEM, budget management, team leadership\n\n-- 1 of 1 --",
+            "matchPercent": 95,
+            "pros": [
+              "6 years of experience exceeds the 2-3 years requirement",
+              "Expertise in Google Analytics, Meta Ads Manager, and SEO/SEM",
+              "Proven track record in driving app downloads and managing significant budgets",
+              "Advanced analytical skills including Power BI and full-funnel dashboards",
+              "Experience managing teams and external agencies"
+            ],
+            "cons": [
+              "Overqualified for a Specialist role (currently a Senior Manager)",
+              "No explicit mention of Mailchimp or specific CRM usage like HubSpot"
+            ],
+            "suggestedQuestions": [
+              "Given your seniority, what motivates you to transition from a Managerial role back to a Specialist role?",
+              "Can you describe a time you had to adjust a digital campaign strategy based on real-time KPI analysis?",
+              "How do you approach coordinating with design teams to ensure creative assets align with performance goals?",
+              "Which specific segmentation strategies have you used in email marketing to improve conversion rates?",
+              "Can you walk us through your process for conducting a competitor analysis for a new product launch?"
+            ]
+          },
+          "cand_1785249971252": {
+            "id": "cand_1785249971252",
+            "status": "rejected",
+            "createdAt": "2026-07-28T14:46:11.252Z",
+            "name": "Sarah Al-Harbi",
+            "fileName": "MKT_05_SeniorMismatch_SarahAlharbi.pdf",
+            "cvText": "Sarah Al-Harbi\nSenior B2B Brand Manager\nRiyadh, Saudi Arabia | sarah.alharbi@email.com\nSummary\nSenior brand manager with 8 years of experience in B2B brand strategy and corporate communications for the\nindustrial sector. Limited hands-on experience with performance marketing tools or consumer digital\ncampaigns.\nExperience\nSenior Brand Manager — Saudi Aramco (contractor) (2020–Present)\n• Led brand positioning and corporate communications for B2B industrial partnerships\n• Managed sponsorships and event marketing for industry conferences\n• Oversaw external PR agency relationships\n• Limited exposure to paid social ads, SEO, or consumer email marketing tools\nCommunications Specialist — SABIC (2017–2020)\n• Wrote corporate press releases and internal communications\nEducation\nB.A. in Public Relations — King Saud University (2017)\nSkills\nBrand strategy, corporate communications, event marketing, stakeholder management, PR\n\n-- 1 of 1 --",
+            "matchPercent": 45,
+            "pros": [
+              "8 years of high-level brand management experience",
+              "Strong background in corporate communications and PR",
+              "Relevant degree in Public Relations",
+              "Experience managing external agency relationships"
+            ],
+            "cons": [
+              "Lacks direct experience with required tools (Google Analytics, Meta Ads, Mailchimp)",
+              "Lacks SEO/SEM expertise requested",
+              "Experience is focused on B2B/Corporate rather than digital performance marketing",
+              "Limited hands-on experience with content creation tools like Canva or Adobe"
+            ],
+            "suggestedQuestions": [
+              "Can you describe your experience transitioning from brand strategy to hands-on digital campaign execution?",
+              "Which digital marketing performance metrics (KPIs) do you believe are most critical for lead generation?",
+              "How would you adapt your corporate communication style to engage an audience on social media platforms?",
+              "If tasked with managing a paid ad budget for a new product, which tools and methodologies would you use to track ROI?",
+              "Can you provide an example of how you have used market research to influence a brand positioning decision?"
+            ]
+          },
+          "cand_1785309690425": {
+            "id": "cand_1785309690425",
+            "status": "rejected",
+            "createdAt": "2026-07-29T07:21:30.425Z",
+            "name": "Maha Al-Otaibi",
+            "fileName": "MKT_01_Entry_MahaAlotaibi.pdf",
+            "cvText": "Maha Al-Otaibi\nMarketing Fresh Graduate\nRiyadh, Saudi Arabia | maha.otaibi@email.com | instagram.com/mahaotaibi.mkt\nSummary\nRecent marketing graduate with a university social media project and one short internship. Eager to start a\ncareer in digital marketing.\nExperience\nMarketing Intern — local fashion boutique (Summer 2025, 2 months)\n• Helped schedule Instagram posts using Canva templates\n• Assisted in tracking basic engagement metrics\nEducation\nB.A. in Marketing — Princess Nourah Bint Abdulrahman University (2025)\nSkills\nCanva, Instagram, basic content writing, Arabic (native), English (intermediate)\n\n-- 1 of 1 --",
+            "matchPercent": 25,
+            "pros": [
+              "Relevant degree in Marketing",
+              "Experience with Canva",
+              "Hands-on internship experience in social media",
+              "Native Arabic speaker"
+            ],
+            "cons": [
+              "Lacks required 2-3 years of professional experience",
+              "No evidence of proficiency in Google Analytics or Meta Ads Manager",
+              "Missing SEO/SEM experience",
+              "No experience with CRM or email marketing tools like Mailchimp"
+            ],
+            "suggestedQuestions": [
+              "Can you describe a time you used data or metrics to change a marketing approach?",
+              "How would you approach building a content calendar for a new brand on social media?",
+              "Which digital marketing tools are you most comfortable using, and which would you like to learn next?",
+              "How would you handle a situation where a marketing campaign is not meeting its KPI targets?",
+              "Can you walk me through a social media campaign you participated in during your studies or internship?"
+            ]
+          },
+          "cand_1785309715722": {
+            "id": "cand_1785309715722",
+            "status": "rejected",
+            "createdAt": "2026-07-29T07:21:55.722Z",
+            "name": "Rana Al-Ghamdi",
+            "fileName": "MKT_02_Junior_RanaAlghamdi.pdf",
+            "cvText": "Rana Al-Ghamdi\nJunior Digital Marketing Executive\nJeddah, Saudi Arabia | rana.ghamdi@email.com\nSummary\nJunior digital marketer with 1.5 years of experience running small paid social campaigns and managing content\ncalendars for a beauty e-commerce brand.\nExperience\nDigital Marketing Executive — Nice One (2024–Present)\n• Managed content calendar and posted 4-5 times per week across Instagram and TikTok\n• Ran small-budget Meta Ads campaigns (under 5,000 SAR/month)\n• Tracked basic performance metrics using Meta Business Suite\n• Assisted senior marketer with monthly email newsletters via Mailchimp\nEducation\nB.A. in Communications — Effat University (2024)\nSkills\nMeta Ads Manager (basic), Mailchimp, Canva, Instagram, TikTok, content calendars\n\n-- 1 of 1 --",
+            "matchPercent": 65,
+            "pros": [
+              "Direct experience with Meta Ads and Mailchimp",
+              "Experience in social media management and content calendars",
+              "Proficiency in Canva",
+              "Degree in Communications matches requirements"
+            ],
+            "cons": [
+              "Slightly under the required 2-3 years of experience",
+              "Limited experience with Google Analytics and SEO/SEM",
+              "Experience with paid ads is limited to small budgets",
+              "Lacks CRM experience (HubSpot)"
+            ],
+            "suggestedQuestions": [
+              "Can you walk me through a specific campaign you managed and how you measured its success using KPIs?",
+              "How do you approach SEO best practices when creating content for websites or blogs?",
+              "Describe your process for conducting competitor analysis in the beauty or e-commerce sector.",
+              "Which tools do you use to track and interpret website traffic beyond Meta Business Suite?",
+              "How would you handle a situation where a paid ad campaign is not meeting its target lead generation goals?"
+            ]
+          },
+          "cand_1785309730595": {
+            "id": "cand_1785309730595",
+            "status": "closed",
+            "createdAt": "2026-07-29T07:22:10.595Z",
+            "name": "Lama Al-Qahtani",
+            "fileName": "MKT_03_Mid_LamaAlqahtani.pdf",
+            "cvText": "Lama Al-Qahtani\nDigital Marketing Specialist\nRiyadh, Saudi Arabia | lama.q@email.com | linkedin.com/in/lamaq\nSummary\nMarketing specialist with 2.5 years of experience running digital campaigns across social media, email, and paid\nads for consumer brands, with a track record of growing engagement and lead volume.\nExperience\nDigital Marketing Executive — Extra Stores (2023–Present)\n• Planned and executed paid social campaigns on Meta Ads Manager with an average ROAS of 4.2x\n• Grew Instagram following by 65% in one year through content strategy and influencer partnerships\n• Built monthly performance reports using Google Analytics and presented insights to leadership\n• Managed email campaigns via Mailchimp, achieving a 28% average open rate\nMarketing Coordinator — Boutiqaat KSA (2022–2023)\n• Assisted in content creation for website and social channels\n• Conducted competitor analysis to inform quarterly marketing strategy\nEducation\nB.A. in Marketing — Princess Nourah Bint Abdulrahman University (2022)\nSkills\nGoogle Analytics, Meta Ads Manager, Mailchimp, SEO/SEM, Canva, content strategy, market research\n\n-- 1 of 1 --",
+            "matchPercent": 95,
+            "pros": [
+              "Directly meets 2-3 years experience requirement",
+              "Proficient in all required tools (Google Analytics, Meta Ads, Mailchimp)",
+              "Proven track record with specific KPIs (ROAS, engagement, open rates)",
+              "Possesses 'nice to have' skill in Canva",
+              "Relevant educational background in Marketing"
+            ],
+            "cons": [
+              "No explicit mention of experience with CRM platforms like HubSpot",
+              "Limited mention of specific SEO/SEM tools beyond general knowledge"
+            ],
+            "suggestedQuestions": [
+              "Can you walk us through a campaign where you used Google Analytics to pivot or optimize your strategy?",
+              "Describe your process for conducting competitor analysis and how it influences your content planning.",
+              "How do you balance managing multiple social media platforms while ensuring brand voice remains consistent?",
+              "Which SEO techniques have you implemented in your previous roles to drive organic traffic?",
+              "How do you approach creating content that successfully drives lead generation versus just brand awareness?"
+            ]
+          },
+          "cand_1785309741519": {
+            "id": "cand_1785309741519",
+            "status": "rejected",
+            "createdAt": "2026-07-29T07:22:21.519Z",
+            "name": "Faisal Al-Dosari",
+            "fileName": "MKT_04_Senior_FaisalAldosari.pdf",
+            "cvText": "Faisal Al-Dosari\nSenior Marketing Manager\nRiyadh, Saudi Arabia | faisal.dosari@email.com | linkedin.com/in/faisaldosari\nSummary\nSenior marketing manager with 6 years of experience leading integrated marketing strategy and small teams for\nconsumer retail brands, with strong analytics and campaign performance track record.\nExperience\nSenior Marketing Manager — Jahez (2021–Present)\n• Led a team of 4 marketers across paid social, SEO, and email channels\n• Owned annual marketing budget of 3M SAR, consistently hitting CAC targets\n• Launched a national campaign that grew app downloads by 80% in one quarter\n• Built full-funnel analytics dashboards using Google Analytics and Power BI\n• Managed relationships with 3 external creative and media agencies\nMarketing Specialist — HungerStation (2019–2021)\n• Ran performance marketing campaigns across Google Ads and Meta Ads\nEducation\nMBA in Marketing — Alfaisal University (2019)\nSkills\nGoogle Ads, Meta Ads Manager, Power BI, Google Analytics, SEO/SEM, budget management, team leadership\n\n-- 1 of 1 --",
+            "matchPercent": 95,
+            "pros": [
+              "6 years of experience, exceeding the 2-3 year requirement",
+              "Proven track record in performance marketing (CAC targets, app downloads)",
+              "Proficiency in required tools: Google Ads, Meta Ads, and Google Analytics",
+              "Strong experience in SEO/SEM and email channels",
+              "Holds an MBA in Marketing, surpassing the Bachelor's requirement"
+            ],
+            "cons": [
+              "Current role (Senior Manager) may exceed the seniority level of a Specialist position",
+              "No explicit mention of content creation or newsletter copywriting experience",
+              "No mention of specific CRM tools like HubSpot"
+            ],
+            "suggestedQuestions": [
+              "As a Senior Manager, what motivates you to transition into a Marketing Specialist role?",
+              "Can you describe your process for creating a content calendar for social media and email newsletters?",
+              "How would you adapt your high-level strategy skills to day-to-day execution and content drafting?",
+              "Describe a time when a campaign's KPIs were not being met and how you adjusted your tactics to fix it."
+            ]
+          },
+          "cand_1785309754254": {
+            "id": "cand_1785309754254",
+            "status": "rejected",
+            "createdAt": "2026-07-29T07:22:34.254Z",
+            "name": "Sarah Al-Harbi",
+            "fileName": "MKT_05_SeniorMismatch_SarahAlharbi.pdf",
+            "cvText": "Sarah Al-Harbi\nSenior B2B Brand Manager\nRiyadh, Saudi Arabia | sarah.alharbi@email.com\nSummary\nSenior brand manager with 8 years of experience in B2B brand strategy and corporate communications for the\nindustrial sector. Limited hands-on experience with performance marketing tools or consumer digital\ncampaigns.\nExperience\nSenior Brand Manager — Saudi Aramco (contractor) (2020–Present)\n• Led brand positioning and corporate communications for B2B industrial partnerships\n• Managed sponsorships and event marketing for industry conferences\n• Oversaw external PR agency relationships\n• Limited exposure to paid social ads, SEO, or consumer email marketing tools\nCommunications Specialist — SABIC (2017–2020)\n• Wrote corporate press releases and internal communications\nEducation\nB.A. in Public Relations — King Saud University (2017)\nSkills\nBrand strategy, corporate communications, event marketing, stakeholder management, PR\n\n-- 1 of 1 --",
+            "matchPercent": 45,
+            "pros": [
+              "Strong background in brand strategy and corporate communications",
+              "8 years of professional experience in marketing/PR",
+              "Relevant degree in Public Relations",
+              "Experience in high-level stakeholder management"
+            ],
+            "cons": [
+              "Lacks hands-on experience with required digital tools (Meta Ads, Google Analytics, Mailchimp)",
+              "Limited experience in performance marketing and SEO/SEM",
+              "Experience is focused on B2B/Corporate rather than the required digital campaign execution",
+              "No documented experience in content creation for social/newsletters"
+            ],
+            "suggestedQuestions": [
+              "Can you describe your experience using digital marketing tools like Google Analytics or Meta Ads Manager to track campaign success?",
+              "This role requires heavy execution of email and social media campaigns; how would you transition from a high-level brand strategy focus to hands-on content creation?",
+              "How would you approach a SEO/SEM strategy to drive lead generation for our specific industry?",
+              "Can you provide an example of a digital campaign you managed from the planning stage through to KPI reporting?"
+            ]
+          }
+        }
+      },
+      "job_1785248752979": {
+        "id": "job_1785248752979",
+        "title": "Financial Analyst",
+        "description": "Responsibilities:\n\nPrepare monthly, quarterly, and annual financial reports\nBuild and maintain financial models and forecasts\nAnalyze variances between actual and budgeted performance\nSupport the annual budgeting process\nProvide financial insights to support business decisions\nEnsure compliance with financial policies and reporting standards\n\nRequirements:\n\nBachelor's degree in Finance, Accounting, or related field\n2-4 years of experience in financial analysis or accounting\nAdvanced Excel skills (pivot tables, financial modeling)\nExperience with ERP systems (SAP, Oracle, or similar)\nStrong analytical and problem-solving skills\n\nNice to have:\n\nCFA or CMA certification (in progress or completed)\nExperience with Power BI or Tableau",
+        "createdAt": "2026-07-28T14:25:52.979Z",
+        "candidates": {}
+      }
+    }
+  }
+}

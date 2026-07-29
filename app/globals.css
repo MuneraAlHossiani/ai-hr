@@ -1,0 +1,87 @@
+/* HR AI Assistant — "Legendary" dark navy theme */
+
+:root {
+  --color-bg-start: #0a0e1a;
+  --color-bg-end: #0f1729;
+
+  --color-card-bg-start: #141b2d;
+  --color-card-bg-end: #1a2338;
+  --color-border: #2a3450;
+
+  --color-accent: #3b82f6;
+  --color-accent-light: #60a5fa;
+
+  --color-match-green: #22c55e;
+  --color-match-amber: #f59e0b;
+  --color-match-red: #ef4444;
+
+  --color-text: #e2e8f0;
+  --color-text-muted: #94a3b8;
+
+  --font-sans: var(--font-inter), system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  min-height: 100%;
+  font-family: var(--font-sans);
+  color: var(--color-text);
+  background: linear-gradient(180deg, var(--color-bg-start) 0%, var(--color-bg-end) 100%);
+  background-attachment: fixed;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+}
+
+/* Reusable card surface */
+.card {
+  background: linear-gradient(160deg, var(--color-card-bg-start) 0%, var(--color-card-bg-end) 100%);
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+}
+
+/* Reusable primary button (works on <button> and <a>/Link alike) */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, var(--color-accent) 0%, var(--color-accent-light) 100%);
+  color: #05070d;
+  border: none;
+  border-radius: 8px;
+  padding: 0.6rem 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.btn-primary:hover {
+  box-shadow: 0 0 16px rgba(59, 130, 246, 0.6);
+  transform: translateY(-1px);
+}

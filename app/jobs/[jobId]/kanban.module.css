@@ -1,0 +1,241 @@
+.board {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(220px, 1fr));
+  gap: 1rem;
+  align-items: start;
+  overflow-x: auto;
+}
+
+.column {
+  background: rgba(20, 27, 45, 0.4);
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  padding: 0.75rem;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  transition: background 0.15s ease;
+}
+
+.columnDraggingOver {
+  background: rgba(59, 130, 246, 0.08);
+}
+
+.columnHeader {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--color-text-muted);
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--color-accent);
+  box-shadow: 0 1px 8px rgba(59, 130, 246, 0.3);
+  display: flex;
+  justify-content: space-between;
+}
+
+.columnCount {
+  color: var(--color-accent-light);
+}
+
+.emptyColumn {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  opacity: 0.6;
+  padding: 0.5rem 0.25rem;
+  text-align: center;
+}
+
+.card {
+  background: linear-gradient(160deg, var(--color-card-bg-start) 0%, var(--color-card-bg-end) 100%);
+  border: 1px solid var(--color-border);
+  border-left: 4px solid var(--color-border);
+  border-radius: 8px;
+  padding: 0.85rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  cursor: grab;
+  transition: box-shadow 0.2s ease, transform 0.15s ease;
+}
+
+.cardDragging {
+  transform: scale(1.03);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+.cardPending {
+  animation: cardPulse 1s ease-in-out infinite;
+}
+
+@keyframes cardPulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.55;
+  }
+}
+
+.tierGreen {
+  border-left-color: var(--color-match-green);
+  box-shadow: 0 0 12px rgba(34, 197, 94, 0.15);
+}
+
+.tierAmber {
+  border-left-color: var(--color-match-amber);
+  box-shadow: 0 0 12px rgba(245, 158, 11, 0.15);
+}
+
+.tierRed {
+  border-left-color: var(--color-match-red);
+  box-shadow: 0 0 12px rgba(239, 68, 68, 0.12);
+}
+
+.cardTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.candidateName {
+  font-weight: 600;
+  font-size: 0.9rem;
+  overflow-wrap: anywhere;
+}
+
+.matchPercent {
+  font-size: 1.3rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.tierGreen .matchPercent {
+  color: var(--color-match-green);
+}
+
+.tierAmber .matchPercent {
+  color: var(--color-match-amber);
+}
+
+.tierRed .matchPercent {
+  color: var(--color-match-red);
+}
+
+.toggleBtn {
+  background: none;
+  border: none;
+  color: var(--color-accent-light);
+  font-size: 0.75rem;
+  cursor: pointer;
+  padding: 0;
+  text-align: left;
+}
+
+.toggleBtn:hover {
+  text-decoration: underline;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+}
+
+.details strong {
+  color: var(--color-text);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.details ul {
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.hireBtn {
+  background: linear-gradient(135deg, var(--color-match-green) 0%, #4ade80 100%);
+  color: #05170c;
+  border: none;
+  border-radius: 6px;
+  padding: 0.4rem 0.7rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.hireBtn:hover:not(:disabled) {
+  box-shadow: 0 0 12px rgba(34, 197, 94, 0.5);
+  transform: translateY(-1px);
+}
+
+.hireBtn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.errorBanner {
+  background: rgba(239, 68, 68, 0.1);
+  border: 1px solid rgba(239, 68, 68, 0.4);
+  color: #fca5a5;
+  border-radius: 8px;
+  padding: 0.6rem 0.8rem;
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+}
+
+.rejectedSection {
+  margin-top: 2rem;
+}
+
+.rejectedToggle {
+  background: transparent;
+  border: 1px solid var(--color-border);
+  color: var(--color-text-muted);
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.rejectedToggle:hover {
+  border-color: var(--color-accent);
+  color: var(--color-text);
+}
+
+.rejectedList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.rejectedRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(20, 27, 45, 0.35);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 0.6rem 1rem;
+  opacity: 0.55;
+  filter: grayscale(0.6);
+}
+
+.rejectedName {
+  font-size: 0.85rem;
+}
+
+.rejectedMeta {
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+}
