@@ -12,7 +12,7 @@ export async function POST(request, { params }) {
     }
 
     const { jobId } = await params;
-    const job = getJob(email, jobId);
+    const job = await getJob(email, jobId);
     if (!job) {
       return NextResponse.json({ error: "Job not found." }, { status: 404 });
     }
@@ -56,7 +56,7 @@ export async function POST(request, { params }) {
         const analysis = await analyzeCandidate(job.description, cvText);
         const name = guessNameFromText(cvText, fileName);
 
-        const candidate = addCandidate(email, jobId, {
+        const candidate = await addCandidate(email, jobId, {
           name,
           fileName,
           cvText,

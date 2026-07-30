@@ -23,7 +23,7 @@ export async function POST(request) {
 
     const normalizedEmail = String(email).trim().toLowerCase();
 
-    if (getProfileByEmail(normalizedEmail)) {
+    if (await getProfileByEmail(normalizedEmail)) {
       return NextResponse.json(
         { error: "An account with this email already exists." },
         { status: 409 }
@@ -31,8 +31,8 @@ export async function POST(request) {
     }
 
     const passwordHash = await hashPassword(password);
-    createProfile(normalizedEmail, passwordHash);
-    createUserData(normalizedEmail, name, dob);
+    await createProfile(normalizedEmail, passwordHash);
+    await createUserData(normalizedEmail, name, dob);
 
     const token = createSessionToken(normalizedEmail);
     const response = NextResponse.json({ success: true });

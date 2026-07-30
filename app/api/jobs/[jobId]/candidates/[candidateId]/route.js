@@ -13,7 +13,7 @@ export async function PATCH(request, { params }) {
 
     const { jobId, candidateId } = await params;
 
-    const job = getJob(email, jobId);
+    const job = await getJob(email, jobId);
     if (!job) {
       return NextResponse.json({ error: "Job not found." }, { status: 404 });
     }
@@ -33,8 +33,8 @@ export async function PATCH(request, { params }) {
       return NextResponse.json({ error: "Invalid status value." }, { status: 400 });
     }
 
-    updateCandidateStatus(email, jobId, candidateId, status);
-    const updatedJob = getJob(email, jobId);
+    await updateCandidateStatus(email, jobId, candidateId, status);
+    const updatedJob = await getJob(email, jobId);
 
     return NextResponse.json({ candidates: updatedJob.candidates });
   } catch {

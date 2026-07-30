@@ -20,7 +20,7 @@ export async function POST(request) {
     }
 
     const normalizedEmail = String(email).trim().toLowerCase();
-    const profile = getProfileByEmail(normalizedEmail);
+    const profile = await getProfileByEmail(normalizedEmail);
 
     if (!profile) {
       return NextResponse.json({ error: GENERIC_ERROR }, { status: 401 });

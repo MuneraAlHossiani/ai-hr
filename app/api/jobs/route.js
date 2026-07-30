@@ -9,7 +9,7 @@ export async function GET() {
       return NextResponse.json({ error: "Not authenticated." }, { status: 401 });
     }
 
-    const userData = getUserData(email);
+    const userData = await getUserData(email);
     const jobs = userData ? Object.values(userData.jobs) : [];
     return NextResponse.json({ jobs });
   } catch {
@@ -39,7 +39,7 @@ export async function POST(request) {
       );
     }
 
-    const job = createJob(email, title, description);
+    const job = await createJob(email, title, description);
     return NextResponse.json({ job }, { status: 201 });
   } catch {
     return NextResponse.json({ error: "Something went wrong creating the job." }, { status: 500 });

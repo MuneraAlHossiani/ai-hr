@@ -8,7 +8,7 @@ import styles from "./job-board.module.css";
 export default async function JobBoardPage({ params }) {
   const email = await requireAuth();
   const { jobId } = await params;
-  const job = getJob(email, jobId);
+  const job = await getJob(email, jobId);
 
   if (!job) {
     notFound();

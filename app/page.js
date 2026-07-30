@@ -5,7 +5,7 @@ import styles from "./dashboard.module.css";
 
 export default async function Dashboard() {
   const email = await requireAuth();
-  const userData = getUserData(email);
+  const userData = await getUserData(email);
   const jobs = userData ? Object.values(userData.jobs) : [];
   jobs.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
 
