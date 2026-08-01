@@ -2,6 +2,8 @@ import { NextResponse } from "next/server";
 import { getCurrentEmail } from "@/lib/requireAuth";
 import { getUserData, createJob } from "@/lib/db";
 
+export const runtime = "nodejs";
+
 export async function GET() {
   try {
     const email = await getCurrentEmail();
@@ -12,7 +14,8 @@ export async function GET() {
     const userData = await getUserData(email);
     const jobs = userData ? Object.values(userData.jobs) : [];
     return NextResponse.json({ jobs });
-  } catch {
+  } catch (err) {
+    console.error("Loading jobs failed:", err);
     return NextResponse.json({ error: "Something went wrong loading jobs." }, { status: 500 });
   }
 }
@@ -41,7 +44,8 @@ export async function POST(request) {
 
     const job = await createJob(email, title, description);
     return NextResponse.json({ job }, { status: 201 });
-  } catch {
+  } catch (err) {
+    console.error("Creating job failed:", err);
     return NextResponse.json({ error: "Something went wrong creating the job." }, { status: 500 });
   }
 }

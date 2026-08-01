@@ -2,6 +2,8 @@ import { NextResponse } from "next/server";
 import { getCurrentEmail } from "@/lib/requireAuth";
 import { getJob } from "@/lib/db";
 
+export const runtime = "nodejs";
+
 export async function GET(request, { params }) {
   try {
     const email = await getCurrentEmail();
@@ -16,7 +18,8 @@ export async function GET(request, { params }) {
     }
 
     return NextResponse.json({ job });
-  } catch {
+  } catch (err) {
+    console.error("Loading job failed:", err);
     return NextResponse.json({ error: "Something went wrong loading the job." }, { status: 500 });
   }
 }

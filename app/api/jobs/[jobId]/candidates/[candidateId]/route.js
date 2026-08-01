@@ -4,6 +4,8 @@ import { getJob, updateCandidateStatus } from "@/lib/db";
 
 const VALID_STATUSES = ["new", "screening", "interview", "offer", "closed", "rejected"];
 
+export const runtime = "nodejs";
+
 export async function PATCH(request, { params }) {
   try {
     const email = await getCurrentEmail();
@@ -37,7 +39,8 @@ export async function PATCH(request, { params }) {
     const updatedJob = await getJob(email, jobId);
 
     return NextResponse.json({ candidates: updatedJob.candidates });
-  } catch {
+  } catch (err) {
+    console.error("Updating candidate status failed:", err);
     return NextResponse.json(
       { error: "Something went wrong updating this candidate." },
       { status: 500 }

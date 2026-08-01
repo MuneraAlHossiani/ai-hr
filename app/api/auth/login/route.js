@@ -4,6 +4,8 @@ import { verifyPassword, createSessionToken, SESSION_COOKIE_NAME } from "@/lib/a
 
 const GENERIC_ERROR = "Invalid email or password.";
 
+export const runtime = "nodejs";
+
 export async function POST(request) {
   try {
     let body;
@@ -40,7 +42,8 @@ export async function POST(request) {
       maxAge: 60 * 60 * 24 * 7,
     });
     return response;
-  } catch {
+  } catch (err) {
+    console.error("Login failed:", err);
     return NextResponse.json(
       { error: "Something went wrong logging in. Please try again." },
       { status: 500 }

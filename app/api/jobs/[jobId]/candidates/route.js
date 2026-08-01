@@ -4,6 +4,8 @@ import { getJob, addCandidate } from "@/lib/db";
 import { extractTextFromFile, guessNameFromText } from "@/lib/extractText";
 import { analyzeCandidate } from "@/lib/ai";
 
+export const runtime = "nodejs";
+
 export async function POST(request, { params }) {
   try {
     const email = await getCurrentEmail();
@@ -70,7 +72,8 @@ export async function POST(request, { params }) {
     }
 
     return NextResponse.json({ candidates, errors });
-  } catch {
+  } catch (err) {
+    console.error("Processing candidate upload failed:", err);
     return NextResponse.json(
       { error: "Something went wrong processing the upload." },
       { status: 500 }
